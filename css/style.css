@@ -1,6 +1,5 @@
 
 /* navbar */
-
 nav{
     height: 80px;
 }
@@ -20,13 +19,10 @@ nav #nav_icons .bi-bell-fill{
 }
 
 
-
 /* container with aside header and main   */
-
 #__container{
     height: calc(100vh - 80px);
 }
-
 
 
 /* aside */
@@ -43,11 +39,7 @@ aside .aside_link:hover{
     background-color: #838e96;
 }
 
-
-
-
 /* header */
-
 header{
     background-color: #007ff2;
 }
@@ -62,8 +54,8 @@ header #_plan button{
 main{
     background-color: #f9fafb;
 }
- /* main section1  */
 
+ /* main section1  */
 main #section1 table #code_logo {
     max-width: 40px;
 
@@ -83,7 +75,6 @@ main #section1 table td span.label_failed{
 
 
 /* main section2  */
-
 main #section2 .card li img._stats{
     max-width: 400px;
 }
