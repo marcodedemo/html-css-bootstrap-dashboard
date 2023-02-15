@@ -58,7 +58,10 @@ header #_plan button{
 }
 
 
-
+/* main  */
+main{
+    background-color: #f9fafb;
+}
  /* main section1  */
 
 main #section1 table #code_logo {
@@ -81,21 +84,9 @@ main #section1 table td span.label_failed{
 
 /* main section2  */
 
-/* main #section2 .card li img._stats{
-    max-width: 500px;
-} */
-
-
-
-
-
-
-
-
-
-
-
-
+main #section2 .card li img._stats{
+    max-width: 400px;
+}
 
 
 @media screen and (min-width:992px) {
