@@ -21,20 +21,64 @@ nav #nav_icons .bi-bell-fill{
 
 
 
-main{
+/* container with aside header and main   */
+
+#__container{
     height: calc(100vh - 80px);
-    width: 100%;
 
     /* test */
-    background-color: red;
-    opacity: .6;
+    background-color: rgba(255, 0, 0, 0.209);
 }
 
 
-main aside{
-    width: 150px;
+
+/* aside */
+
+aside{
+    width: 70px;
     height: 100%;
-    
-    /* test */
+
     background-color: #002a45;
+}
+
+aside .aside_link:hover{
+    background-color: #838e96;
+}
+
+
+
+
+/* header */
+
+header{
+    background-color: #007ff2;
+}
+
+header #_plan .breadcrumb-item,
+header #_plan button{
+    background-color:#0068c8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:992px) {
+    
+    aside{
+        width: 150px;
+    }
 }
