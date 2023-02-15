@@ -59,9 +59,24 @@ header #_plan button{
     background-color:#0068c8;
 }
 
+ /* main section1  */
 
+main #section1 table .fa-code{
+    background-color: #ff6653;
 
+}
 
+main #section1 table td span.label_done{
+    background-color: #00955b;
+}
+
+main #section1 table td span.label_process{
+    background-color: #ffc600;
+}
+
+main #section1 table td span.label_failed{
+    background-color: #f42349;
+}
 
 
 
