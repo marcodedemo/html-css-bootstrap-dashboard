@@ -1,0 +1,40 @@
+
+/* navbar */
+
+nav{
+    height: 80px;
+}
+
+nav #logo_mobile{
+    max-width: 50px;
+}
+nav #nav_search input{
+    background-color: #e8e8e8;
+}
+
+nav .dropdown button{
+    background-color: transparent;
+}
+nav #nav_icons .bi-bell-fill{
+    color: #ff9400;
+}
+
+
+
+main{
+    height: calc(100vh - 80px);
+    width: 100%;
+
+    /* test */
+    background-color: red;
+    opacity: .6;
+}
+
+
+main aside{
+    width: 150px;
+    height: 100%;
+    
+    /* test */
+    background-color: #002a45;
+}
