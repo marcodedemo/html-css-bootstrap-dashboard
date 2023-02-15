@@ -25,9 +25,6 @@ nav #nav_icons .bi-bell-fill{
 
 #__container{
     height: calc(100vh - 80px);
-
-    /* test */
-    background-color: rgba(255, 0, 0, 0.209);
 }
 
 
@@ -39,6 +36,7 @@ aside{
     height: 100%;
 
     background-color: #002a45;
+    background-image: url("../img/sidebar-bg.png");
 }
 
 aside .aside_link:hover{
@@ -59,10 +57,12 @@ header #_plan button{
     background-color:#0068c8;
 }
 
+
+
  /* main section1  */
 
-main #section1 table .fa-code{
-    background-color: #ff6653;
+main #section1 table #code_logo {
+    max-width: 40px;
 
 }
 
@@ -77,6 +77,13 @@ main #section1 table td span.label_process{
 main #section1 table td span.label_failed{
     background-color: #f42349;
 }
+
+
+/* main section2  */
+
+/* main #section2 .card li img._stats{
+    max-width: 500px;
+} */
 
 
 
