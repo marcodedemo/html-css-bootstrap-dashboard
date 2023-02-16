@@ -70,19 +70,6 @@ main #section1 table td:not(:first-child){
     max-width: 100px;
 }
 
-main #section1 table td span.label_done{
-    background-color: #00955b;
-}
-
-main #section1 table td span.label_process{
-    background-color: #ffc600;
-}
-
-main #section1 table td span.label_failed{
-    background-color: #f42349;
-}
-
-
 /* main section2  */
 main #section2 .card li img._stats{
     max-width: 500px;
