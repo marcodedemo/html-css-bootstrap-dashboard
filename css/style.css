@@ -58,7 +58,16 @@ main{
  /* main section1  */
 main #section1 table #code_logo {
     max-width: 40px;
+}
 
+main #section1 table th:not(:first-child){
+    text-align: center;
+    max-width: 100px;
+}
+
+main #section1 table td:not(:first-child){
+    text-align: center;
+    max-width: 100px;
 }
 
 main #section1 table td span.label_done{
@@ -76,7 +85,7 @@ main #section1 table td span.label_failed{
 
 /* main section2  */
 main #section2 .card li img._stats{
-    max-width: 400px;
+    max-width: 500px;
 }
 
 
